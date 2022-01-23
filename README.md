@@ -1,36 +1,46 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program helped me to learn sqlalchemy and the python terminal. SQLAlchemy is great with flask to create web applications.
 
-{Provide a description the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
+This is a book database made with sqlAlchemy, flask and python. The program contains a csv file with names of books pre-installed. You can either hardcode the names of the books into the csv or add them with the program.
 
-{Describe your purpose for writing this software.}
+It's a crud application that add, delete, modify and read items in tables already pre-created.
+
+1. Run the app.py file to start the program.
+2. Choose what you wish to do and follow the prompt.
+
+I wrote this program because I wanted to learn sqlAlchemy. I plan on building an application that will serve as a job board for computer science and programming students. 
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/ufCPhWTc-bg)
 
 # Relational Database
 
-{Describe the relational database you are using.}
+The database is made with sqlAlchemy.
 
-{Describe the structure (tables) of the relational database that you created.}
+The database contains 5 rows to save books.
+
+1. id
+2. title
+3. author
+4. published
+5. price 
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+To see the items required to run the software please check the requirements.txt file.
 
-{Describe the programming language that you used and any libraries.}
+This program was made with Python 3.10.0
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Web Site Name](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
+* [Web Site Name](https://www.section.io/engineering-education/flask-database-integration-with-sqlalchemy/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* I want to add html templates to this program instead of using the terminal.
+* I feel like I could've used fewer code if I didn't clean user input. 
+* I need to add more roles with more information about the books e.g summary.
